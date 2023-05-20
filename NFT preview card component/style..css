@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+ --Very Dark Blue: hsl(217, 54%, 11%)
+ --Dark Blue:  hsl(216, 50%, 16%)
+-- Blue: hsl(215, 32%, 27%)
+--White: hsl(0, 0%, 100%)
+--Soft Blue: hsl(215, 51%, 70%)
+--Cyan: hsl(178, 100%, 50%)
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+/*font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+*/
+
+body {
+font-family: Outfit sans-serif;
+font-size: 18px;
+min-height: 100vh;
+display: flex;  
+justify-content: center;
+align-items: center;
+background-color: hsl(217, 54%, 11%) ;
+}
+
+.container {
+  margin: 30px auto;
+  padding: 0 30px;
+}
+
+.grid {
+background-color: hsl(216, 50%, 16%);
+max-width: 400px;
+max-height: 700px;
+padding: 20px 20px;
+overflow: hidden;
+display: grid;
+grid-template-rows: 1fr;
+cursor: pointer;
+border-radius: 15px;
+}
+
+.img img {
+ max-width: 100%;
+ border-radius: 15px;
+}
+
+h3.Head-er {
+  color: white;
+  font-family: 'Red Hat Display', sans-serif;
+  padding: 15px 0px;
+  font-size: 17px;
+}
+
+p.paraghrapf {
+  font-family: 'Fraunces', serif;
+color: hsl(215, 51%, 70%);
+line-height: 1em;
+padding-bottom: 15px;  
+font-weight: bold;
+font-weight: 600;
+}
+
+.number {
+   display: flex;
+  gap: 180px;
+}
+
+p.blue-number {
+  color: hsl(178, 100%, 50%);
+font-family: 'Red Hat Display', sans-serif;
+}
+p.days {
+  color: hsl(215, 51%, 70%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+
+
+
